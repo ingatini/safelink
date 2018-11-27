@@ -1,4 +1,3 @@
-<base target='_blank' />
 function extractDomain(url) {
 	var hostname;
 	if (url.indexOf("://") > -1) {hostname = url.split('/')[2];}
